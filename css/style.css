@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.background {
+    border: 1px solid black;
+    background-color: rgba(255, 235, 205, 0.312);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.navbar .logo {
+
+    margin-right: auto;
+
+}
+
+.navbar .logo img {
+    height: 10rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.navbar ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 2rem;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.intro img {
+    height: 4rem;
+
+}
+
+.intro h2 {
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 2rem;
+
+}
+
+.intro .p1 {
+    display: flex;
+    width: 80%;
+
+}
+
+.intro .p1 p {
+    padding: 3rem;
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+.bossbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.box1,
+.box2,
+.box3 {
+    margin: 30px;
+    height: 300px;
+    border: 1px solid;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.bossbox p {
+    margin-top: 1.5rem;
+    font-family: "Quicksand", sans-serif;
+    padding: 10px
+}
+
+.bossbox h2 {
+    margin-top: 2rem;
+    padding: 10px
+}
+
+/* linkers kassin */
+.dropbtn {
+    background-color: rgba(255, 255, 255, 0.472);
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Ubuntu", sans-serif;
+    margin: 1rem;
+    position: relative;
+
+}
+
+.dropdown {
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(0, 0, 0);
+}
+
+.dropdown:hover .dropbtn {
+    color: white;
+}
+
+/* tahtbox */
+.tahtbox {
+    display: flex;
+
+}
+.tahtright{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 20%;
+    
+}
+
+.tahtright a img {
+    height: 5rem;
+
+}
+
+.tahtright ul li {
+    list-style-type: none;
+    padding: 5rem;
+    
+}
+
+.tahtleft{
+    margin-left:15% ;
+    width: 12rem;
+    
+}
+.tahtleft h2{
+    font-family: "Quicksand", sans-serif;
+}
+/* section2 */
+.section2{
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    padding-bottom: 0px;
+}
+.lefts h1{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 100;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    width: 20rem;
+
+}
+.lefts p{
+    width: 55%;
+    margin-left:8rem ;
+    margin: 3rem 8rem;
+    font-family: "Ubuntu", sans-serif;
+}
+.lefts{
+padding-bottom: 0rem ;
+}
+.lefts img {
+position : relative;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 0rem;
+ 
+} 
+/* rights ala fiha aka les tableaux */
+.rights{
+    display: flex;
+}
+.sectionright ,.sectionleft{
+    width: 40%;
+}
+.t1 ,.t2 ,.t3,.t4{
+    border: 1px solid white;
+    margin: 5%;
+    height: 15rem;
+    border-radius:10px ;
+    padding: 20px;
+
+}
+.rights h3{
+    font-family: "Ubuntu", sans-serif;
+    padding: 9% 0;
+    font-size: 23px;
+}
+.rights p{
+    font-family: "Fredericka the Great", serif;
+}
+.sectionleft{
+    margin: 30px 0;
+}
+/* footer */
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgba(255, 255, 255, 0.472);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #000000;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #cbcbcb;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #818080;
+	display: block;
+	transition: all 0.3s ease;
+    font-family:Poppins;
+}
+.footer-col ul li a:hover{
+	color: #434242;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(0, 0, 0, 0.669);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+    font-size: 20Px;
+}
+.footer-col .social-links a:hover{
+	color: #000000;
+	border: 1px,solid;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
